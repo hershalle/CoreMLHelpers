@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "CoreMLHelpers"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A collection of types and functions that make it a little easier to work with Core ML in Swift."
   s.description  = <<-DESC
   Some of the things CoreMLHelpers has to offer:
