@@ -23,7 +23,7 @@
 import UIKit
 import VideoToolbox
 
-extension UIImage {
+public extension UIImage {
   /**
    Resizes the image to width x height and converts it to an RGB CVPixelBuffer.
   */
@@ -85,7 +85,7 @@ extension UIImage {
   }
 }
 
-extension UIImage {
+public extension UIImage {
   /**
    Creates a new UIImage from a CVPixelBuffer.
    NOTE: This only works for RGB pixel buffers, not for grayscale.
@@ -116,7 +116,7 @@ extension UIImage {
   }
 }
 
-extension UIImage {
+public extension UIImage {
   /**
     Creates a new UIImage from an array of RGBA bytes.
    */
